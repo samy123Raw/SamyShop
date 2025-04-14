@@ -4,12 +4,13 @@
     <input type="text" id="username"><br><br>
 
     <label for="password">Password:</label>
-    <input type="password" id="password"><br><br>z
+    <input type="password" id="password"><br><br>
+    
   </form>
 </template>
 
 <script>
-import studentregistration_form from 
+import studentregistration_form from ./
 export default {
   name: 'StudentRegistrationForm'
 }
